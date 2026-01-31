@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import { useMemo } from "react";
 import { TextField, Box, Typography } from "@mui/material";
 
 const HighlightedText = ({ text, currentWordIndex, onTextChange, disabled }) => {
